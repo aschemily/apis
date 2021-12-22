@@ -57,7 +57,7 @@ body:
 POST https://practiceapi.devmountain.com/api/posts/
 
 What would the URL and body object be to update the post you just made to contain your faovrite color instead of your name?
-https://practiceapi.devmountain.com/api/posts/id
+PUT https://practiceapi.devmountain.com/api/posts/id
 {
     "text": "emily testing"
   }
@@ -73,4 +73,4 @@ What would cause a PUT request to return a 409 status?
 Request was missing req.query.id or req.body.text
 
 What happens if you try to send a query in the GET request URL? Why do you get that response?
-Cannot GET /api/posts/20
+Cannot GET /api/posts/20 
